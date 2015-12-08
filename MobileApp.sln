@@ -15,6 +15,7 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		MobileApp\MobileApp\MobileApp.projitems*{fc1da2b1-aa5c-4822-a7ca-b1bec5658667}*SharedItemsImports = 13
 		MobileApp\MobileApp\MobileApp.projitems*{57ef1be7-a863-4883-b3ba-ca47e2b625a2}*SharedItemsImports = 4
+		MobileApp\MobileApp\MobileApp.projitems*{15a6d36d-7de8-4af3-8bb0-17efdc39eac8}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

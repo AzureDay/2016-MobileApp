@@ -10,8 +10,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\BaseNavigationPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\BaseTabbedPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\BaseView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\MenuCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\MenuItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\MenuListView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\RootPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\Settings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\SettingsService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\StateService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\HomeView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MenuListData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MenuPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)GettingStarted.Xamarin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Views\Xaml\" />
   </ItemGroup>
 </Project>
